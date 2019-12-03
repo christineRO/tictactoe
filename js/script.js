@@ -1,8 +1,14 @@
+let playerOne = "O";
+let playerTwo = "X";
 
+let totalNumberOfTurns = 0;
 
+let gameOver = false;
 
-
-
+function performLogic(buttonId, tileId) {
+    $(buttonId).hide;
+    $(tileId).html(player);
+};
 
 
 $("#button1").click(function() {
