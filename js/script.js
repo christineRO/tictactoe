@@ -1,15 +1,18 @@
-let playerOne = "O";
-let playerTwo = "X";
+let player = "O";
 
 let totalNumberOfTurns = 0;
 
 let gameOver = false;
 
 function performLogic(buttonId, tileId) {
-    $(buttonId).hide;
+    $(buttonId).hide();
     $(tileId).html(player);
+    if (player === "O") {
+        player = "X";
+    } else {
+        
+    }
 };
-
 
 $("#button1").click(function() {
     performLogic("#button1","#tile1");
@@ -46,4 +49,3 @@ $("#button8").click(function() {
 $("#button9").click(function() {
     performLogic("#button9","#tile9");
 });
-

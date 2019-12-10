@@ -11,10 +11,10 @@ In this unit, coders will create the classic game of tic tac toe in their browse
 - [ ] Complete the project planning document.
 #### Set-Up
 - [x] Go to the repository at
-- [ ] Fork this repository to your github account and clone to a new workspace
-- [ ] Add, commit, and push your changes
-- [ ] Make your site live on gh-pages
-- [ ] Submit your website using the link on the Agenda
+- [x] Fork this repository to your github account and clone to a new workspace
+- [x] Add, commit, and push your changes
+- [x] Make your site live on gh-pages
+- [x] Submit your website using the link on the Agenda
 
 ### JavaScript
 - [ ] Create a variable that keeps track of the current player and set it equal to either a string of "X" or "O"
